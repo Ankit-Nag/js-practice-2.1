@@ -48,6 +48,7 @@ export default function App() {
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
       <div className="container">
+        <h3>Check which date comes first</h3>
         <label>Date 1: </label>
         <input
           onChange={(e) => setInput(e.target.value)}
@@ -56,6 +57,7 @@ export default function App() {
         <input
           onChange={(e) => setInput2(e.target.value)}
           type="date"></input>
+        <button onClick>Check</button>
       </div>
     </div>
   );
